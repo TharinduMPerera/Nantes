@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NantesModifiedLabelkit'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A modified version of Nantes'
 
   s.description      = <<-DESC

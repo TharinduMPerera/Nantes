@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   NantesModifiedLabelkit is a modified version of Nantes.
                        DESC
 
-  s.homepage         = 'https://github.com/TharinduMPerer/NantesModifiedLabelkit'
+  s.homepage         = 'https://github.com/TharinduMPerera/NantesModifiedLabelkit'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'TharinduMPerera' => 'tharindu.a.perera@gmail.com' }
-  s.source           = { :git => 'https://github.com/TharinduMPerer/NantesModifiedLabelkit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TharinduMPerera/NantesModifiedLabelkit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

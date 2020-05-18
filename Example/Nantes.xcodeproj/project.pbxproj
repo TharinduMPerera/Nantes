@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43CE203621FFBCF1006B3CE4 /* Nantes_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CE203521FFBCF1006B3CE4 /* Nantes_ExampleUITests.swift */; };
 		589663CCBC13D9F1B0549691 /* Pods_Nantes_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578962B2E85377E6F8A72B14 /* Pods_Nantes_Example.framework */; };
+		5956439924725083003DFA5F /* NantesModifiedLabelkit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5956439824725083003DFA5F /* NantesModifiedLabelkit.podspec */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		43CE203521FFBCF1006B3CE4 /* Nantes_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nantes_ExampleUITests.swift; sourceTree = "<group>"; };
 		43CE203721FFBCF1006B3CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578962B2E85377E6F8A72B14 /* Pods_Nantes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nantes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5956439824725083003DFA5F /* NantesModifiedLabelkit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NantesModifiedLabelkit.podspec; path = ../NantesModifiedLabelkit.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Nantes_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nantes_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Nantes_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nantes_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8142C4AE463EE29A0FB7E0A1 /* Nantes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Nantes.podspec; path = ../Nantes.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83A93784F256413EC3B521E9 /* Pods-Nantes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nantes_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nantes_Example/Pods-Nantes_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C6C92825E74967ADEAA87ED /* Pods_Nantes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nantes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EB1054E81041C355CB742B /* Pods-Nantes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nantes_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nantes_Example/Pods-Nantes_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +179,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				8142C4AE463EE29A0FB7E0A1 /* Nantes.podspec */,
+				5956439824725083003DFA5F /* NantesModifiedLabelkit.podspec */,
 				0F9BD747F15472788A5C0BD0 /* README.md */,
 				1CC3384FB231F3F3C9E9AFEE /* LICENSE */,
 			);
@@ -304,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5956439924725083003DFA5F /* NantesModifiedLabelkit.podspec in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -371,11 +373,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Nantes_Example/Pods-Nantes_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nantes/Nantes.framework",
+				"${BUILT_PRODUCTS_DIR}/NantesModifiedLabelkit/NantesModifiedLabelkit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nantes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NantesModifiedLabelkit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

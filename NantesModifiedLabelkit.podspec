@@ -7,18 +7,18 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Nantes'
-  s.version          = '0.0.9'
-  s.summary          = 'A swift replacement of TTTAttributedLabel'
+  s.name             = 'NantesModifiedLabelkit'
+  s.version          = '0.0.1'
+  s.summary          = 'A modified version of Nantes'
 
   s.description      = <<-DESC
-  Nantes is a swift replacement of TTTAttributedLabel. 
+  NantesModifiedLabelkit is a modified version of Nantes.
                        DESC
 
-  s.homepage         = 'https://github.com/Instacart/Nantes'
+  s.homepage         = 'https://github.com/TharinduMPerer/NantesModifiedLabelkit'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  s.author           = { 'chansen22' => 'chris.hansen@instacart.com' }
-  s.source           = { :git => 'https://github.com/Instacart/Nantes.git', :tag => s.version.to_s }
+  s.author           = { 'TharinduMPerera' => 'tharindu.a.perera@gmail.com' }
+  s.source           = { :git => 'https://github.com/TharinduMPerer/NantesModifiedLabelkit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

@@ -5,8 +5,9 @@
 //  Created by Chris Hansen on 1/8/19.
 //  Copyright © 2019 Instacart. All rights reserved.
 //
+//  This file has been modified by Tharindu Perera to add updated pod
 
-import Nantes
+import NantesModifiedLabelkit
 import UIKit
 
 final class ViewController: UIViewController {
@@ -67,6 +68,7 @@ final class ViewController: UIViewController {
     }
 
     private func setupTitleLabel() {
+        titleLabel.textColor = UIColor.darkGray
         titleLabel.attributedTruncationToken = NSAttributedString(string: "...\ntap for more")
         titleLabel.numberOfLines = 3
         titleLabel.labelTappedBlock = { [weak self] in
@@ -79,6 +81,9 @@ final class ViewController: UIViewController {
         }
 
         titleLabel.text = ExampleString.title.rawValue
+        titleLabel.truncationChangedBlock = { isTruncated in
+            print("Truncation changed. Truncation state \(isTruncated)")
+        }
     }
 
     private func setupAddressLabel() {

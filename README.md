@@ -1,3 +1,26 @@
+Nantes Modified Label kit 
+===================
+This library is a fork of the swift library [Nantes](https://github.com/https://github.com/instacart/Nantes). Much ❤️  and credit goes to [Instacart](https://github.com/instacart).
+
+### CocoaPods
+
+Nantes is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'NantesModifiedLabelkit'
+```
+
+```swift
+import NantesModifiedLabelkit
+
+// observe truncation change once UILabel starts to be drawn
+
+titleLabel.truncationChangedBlock = { isTruncated in
+    print("Truncation changed. Truncation state \(isTruncated)")
+}
+```
+
 Nantes 🥕
 ========
 [![CI Status](https://img.shields.io/travis/instacart/Nantes.svg?style=flat)](https://travis-ci.org/instacart/Nantes)

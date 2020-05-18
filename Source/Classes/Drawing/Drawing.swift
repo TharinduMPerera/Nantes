@@ -5,6 +5,7 @@
 //  Created by Chris Hansen on 5/8/19.
 //  Copyright © 2019 Instacart. All rights reserved.
 //
+//  This file has been modified by Tharindu Perera to add truncation change event
 
 extension NantesLabel {
     var flushFactor: CGFloat {

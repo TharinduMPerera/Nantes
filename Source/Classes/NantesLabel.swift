@@ -5,6 +5,7 @@
 //  Created by Chris Hansen on 12/10/18.
 //  Copyright © 2018 Instacart. All rights reserved.
 //
+//  This file has been modified by Tharindu Perera to add truncation change event
 
 @IBDesignable open class NantesLabel: UILabel {
     public enum VerticalAlignment {

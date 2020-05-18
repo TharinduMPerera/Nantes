@@ -1,6 +1,6 @@
 Nantes Modified Label kit 
 ===================
-This library is a fork of the swift library [Nantes](https://github.com/https://github.com/instacart/Nantes). Much ❤️  and credit goes to [Instacart](https://github.com/instacart).
+This library is a fork of the swift library [Nantes](https://github.com/instacart/Nantes). Much ❤️  and credit goes to [Instacart](https://github.com/instacart).
 
 ### CocoaPods
 

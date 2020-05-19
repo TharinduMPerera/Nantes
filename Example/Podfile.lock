@@ -1,5 +1,5 @@
 PODS:
-  - NantesModifiedLabelkit (0.0.1)
+  - NantesModifiedLabelkit (1.0.0)
 
 DEPENDENCIES:
   - NantesModifiedLabelkit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NantesModifiedLabelkit: abcde0efa643e009bff7f04666aa97fb471a8412
+  NantesModifiedLabelkit: 475bd187ee962f37324aafb9f335ce3ca99346c7
 
 PODFILE CHECKSUM: f851822dea74a437e83c6c3caf3829834e9735c6
 

@@ -4,7 +4,7 @@ This library is a fork of the swift library [Nantes](https://github.com/instacar
 
 ### CocoaPods
 
-Nantes is available through [CocoaPods](https://cocoapods.org). To install
+NantesModifiedLabelkit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby

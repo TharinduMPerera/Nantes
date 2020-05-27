@@ -99,8 +99,8 @@
     open var verticalAlignment: NantesLabel.VerticalAlignment = .center
     
     /// Block to run whenever the label truncation is changed.
-    /// returns whether label is truncated or not
-    open var truncationChangedBlock: ((Bool) -> Void)?
+    /// returns whether label is truncated or not and number of drawn lines
+    open var truncationChangedBlock: ((Bool, Int) -> Void)?
 
     // MARK: - Private vars
 

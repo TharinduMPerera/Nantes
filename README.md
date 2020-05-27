@@ -16,8 +16,9 @@ import NantesModifiedLabelkit
 
 // observe truncation change once UILabel starts to be drawn
 
-titleLabel.truncationChangedBlock = { isTruncated in
-    print("Truncation changed. Truncation state \(isTruncated)")
+titleLabel.truncationChangedBlock = { isTruncated, lineCount in
+    print("Truncation changed. Truncation state: \(isTruncated)")
+    print("Number of drawn lines: \(lineCount)")
 }
 ```
 

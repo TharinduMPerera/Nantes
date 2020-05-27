@@ -81,8 +81,9 @@ final class ViewController: UIViewController {
         }
 
         titleLabel.text = ExampleString.title.rawValue
-        titleLabel.truncationChangedBlock = { isTruncated in
-            print("Truncation changed. Truncation state \(isTruncated)")
+        titleLabel.truncationChangedBlock = { isTruncated, lineCount in
+            print("Truncation changed. Truncation state: \(isTruncated)")
+            print("Number of drawn lines: \(lineCount)")
         }
     }
 
